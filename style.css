@@ -53,13 +53,6 @@ body {
   to { transform: translate(50px, 50px) scale(1.1); }
 }
 
-.shape-1 {
-  width: 500px;
-  height: 500px;
-  /* background: #ffedd5; */
-  top: -100px;
-  left: -100px;
-}
 
 .shape-2 {
   width: 450px;
