@@ -56,7 +56,7 @@ body {
 .shape-1 {
   width: 500px;
   height: 500px;
-  background: #ffedd5;
+  /* background: #ffedd5; */
   top: -100px;
   left: -100px;
 }
