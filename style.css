@@ -134,6 +134,7 @@ body {
   max-width: 320px;
   line-height: 1.6;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 /* Links Section */
@@ -174,6 +175,29 @@ body {
   font-size: 1.25rem;
   color: var(--accent-secondary);
   opacity: 0.8;
+}
+
+.link-portfolio {
+  background: rgba(26, 29, 41, 0.9);
+  border: 1px solid rgba(6, 182, 212, 0.4);
+  color: #ffffff;
+  backdrop-filter: blur(15px);
+}
+
+.link-portfolio:hover {
+  background: rgba(26, 29, 41, 1);
+  border-color: #06b6d4;
+  color: #10b981; /* Green transition like in portfolio */
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);
+}
+
+.link-portfolio i {
+  color: #06b6d4;
+  opacity: 1;
+}
+
+.link-portfolio:hover i {
+  color: #10b981;
 }
 
 /* Social Icons */

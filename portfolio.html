@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yehor Hmyria - Frontend Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Yehor Hmyria, Frontend Developer specializing in React, Next.js, and web automation.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">YH</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i data-lucide="code-2"></i>
+                <span>Available for opportunities</span>
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="gradient-text">Yehor Hmyria</span>
+            </h1>
+            <p class="hero-subtitle">Frontend Developer</p>
+            <p class="hero-description">
+                I build responsive websites, landing pages, and automation solutions. 
+                Passionate about creating seamless user experiences and optimizing business processes.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i data-lucide="mail"></i>
+                    Get in Touch
+                </a>
+                <a href="https://github.com/YehorHmyria" target="_blank" class="btn btn-secondary">
+                    <i data-lucide="github"></i>
+                    View GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-lucide="briefcase"></i>
+                Experience
+            </h2>
+            
+            <div class="timeline">
+                <!-- LeadsDoIt -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">LeadsDoIt</h3>
+                                <p class="job-title">Frontend Developer</p>
+                            </div>
+                            <span class="timeline-date">04.2025 - 12.2025</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Developed responsive websites, landing pages, and assisted in PWA creation</li>
+                            <li>Built a custom in-house full-stack automation service (JavaScript, Playwright, DB, Auth)</li>
+                            <li>Implemented and managed tracking/attribution systems (GA4, Meta Ads, AppsFlyer)</li>
+                            <li>Streamlined business processes using n8n and API integrations (Postman)</li>
+                            <li>Managed web infrastructure and security via Cloudflare</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Traff Control Co. -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Traff Control Co.</h3>
+                                <p class="job-title">Web Developer</p>
+                            </div>
+                            <span class="timeline-date">05.2024 - 04.2025</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li><strong>Web Development:</strong> Developing custom websites and high-converting landing pages using HTML, CSS, JavaScript, and PHP. Proficient in WordPress and Shopify customization</li>
+                            <li><strong>Bot Development:</strong> Designing and deploying automated chat solutions, ranging from ManyChat (no-code) flows to complex custom bots</li>
+                            <li><strong>CRM Integration:</strong> Setting up seamless data integrations and workflows with NetHunt, KeyCRM, Pipedrive, and Salesforce</li>
+                            <li><strong>Analytics:</strong> Configuring advanced tracking, attribution, and event monitoring via Posthog, Keitaro, and Google Analytics</li>
+                            <li><strong>Database:</strong> Managing data storage and architecture using both MongoDB (NoSQL) and PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-lucide="folder"></i>
+                Projects
+            </h2>
+            
+            <div class="projects-grid">
+                <!-- Defrag.WTF -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="defrag-wtf.png" alt="Defrag.WTF">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="https://defrag.wtf/" target="_blank" rel="noopener noreferrer">Defrag.WTF</a>
+                        </h3>
+                        <p class="project-description">
+                            A brutalist tech-news aggregator that defragments articles into raw, signal-only facts. Full-stack monorepo combining automated RSS scraping, AI-assisted summarization (Groq/Google AI), and a minimalist React frontend. Features scheduled daily ingestion, content deduplication, and a PWA-ready interface with dark/light themes.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Supabase</span>
+                            <span class="project-tag">AI/LLM</span>
+                            <span class="project-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Constant Pool -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="constant-pool.png" alt="Constant Pool">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="https://www.constant-pool.com/" target="_blank" rel="noopener noreferrer">Constant Pool</a>
+                        </h3>
+                        <p class="project-description">
+                            Built a complete digital ecosystem for "Constant Pool". Developed a fast WordPress website to capture leads, engineered a custom CRM system tailored to pool service business logic, and integrated end-to-end analytics to track PPC performance, linking ad spend directly to CRM revenue data. Automated the sales funnel, reduced lead processing time, and provided clear data on advertising ROI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">Custom CRM</span>
+                            <span class="project-tag">PPC Analytics</span>
+                            <span class="project-tag">GA4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alliance Realty -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="alliance-realty.png" alt="Alliance Realty">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="https://a-realty.pl/" target="_blank" rel="noopener noreferrer">Alliance Realty</a>
+                        </h3>
+                        <p class="project-description">
+                            Developed a comprehensive web solution for a property management agency. Built a responsive website focused on lead generation, implemented advanced SEO strategies for local search visibility, and configured Google Analytics 4 (GA4) and Google Tag Manager (GTM) to track form submissions and user behavior accurately.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">SEO</span>
+                            <span class="project-tag">GA4</span>
+                            <span class="project-tag">GTM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spotter Security -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="spotter-security.png" alt="Spotter Security">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="https://www.spottersecurity.com/" target="_blank" rel="noopener noreferrer">Spotter Security</a>
+                        </h3>
+                        <p class="project-description">
+                            Fixed critical mobile layout discrepancies for a security company website built on WordPress (Avada Theme). Performed manual CSS adjustments and markup corrections, resized and optimized media assets specifically for mobile breakpoints. Delivered a fully responsive, visually consistent mobile experience, eliminating layout bugs that were blocking the user interface.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">WordPress</span>
+                            <span class="project-tag">Avada Theme</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Mobile Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JetStream -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="jetstream.png" alt="JetStream">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="https://github.com/YehorHmyria/JetStream_Software" target="_blank" rel="noopener noreferrer">JetStream</a>
+                        </h3>
+                        <p class="project-description">
+                            High-performance Node.js application for throttled server-side event processing and automated data delivery. Features real-time dashboard for managing jobs, CSV batch processing, secure encrypted notes, Telegram integration for status reports, and session-based authentication. Designed for reliable AppsFlyer S2S event delivery with configurable rates.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Express</span>
+                            <span class="project-tag">Vanilla JS</span>
+                            <span class="project-tag">Telegram API</span>
+                            <span class="project-tag">CSV Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-lucide="layers"></i>
+                Skills & Technologies
+            </h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i data-lucide="code"></i>
+                        Frontend
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Tilda</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i data-lucide="database"></i>
+                        Backend & Database
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Supabase</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i data-lucide="git-branch"></i>
+                        Tools & DevOps
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git, GitHub</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Cloudflare</span>
+                        <span class="skill-tag">n8n</span>
+                        <span class="skill-tag">Make</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i data-lucide="bar-chart"></i>
+                        Analytics & Tracking
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GA4, Meta Ads</span>
+                        <span class="skill-tag">Binom/Keitaro</span>
+                        <span class="skill-tag">AppsFlyer</span>
+                        <span class="skill-tag">Posthog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-lucide="graduation-cap"></i>
+                Education
+            </h2>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i data-lucide="school"></i>
+                    </div>
+                    <h3 class="education-title">Kyiv Aviation Institute</h3>
+                    <p class="education-degree">Software Engineering, Bachelor</p>
+                    <p class="education-date">2022-2026</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <h3 class="education-title">IT STEP Academy</h3>
+                    <p class="education-degree">C++ Course</p>
+                    <p class="education-date">2021-2022</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+                    <h3 class="education-title">META</h3>
+                    <p class="education-degree">JavaScript Course</p>
+                    <p class="education-date">2022-2023</p>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i data-lucide="search"></i>
+                    </div>
+                    <h3 class="education-title">HubSpot</h3>
+                    <p class="education-degree">SEO Certificate</p>
+                    <p class="education-date">2026</p>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="languages-section">
+                <h3 class="languages-title">
+                    <i data-lucide="globe"></i>
+                    Languages
+                </h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <span class="language-name">English</span>
+                        <span class="language-level">B2</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Ukrainian</span>
+                        <span class="language-level">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Norwegian</span>
+                        <span class="language-level">A1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i data-lucide="send"></i>
+                Get in Touch
+            </h2>
+            
+            <div class="contact-grid">
+                <a href="https://yhmyria.site" target="_blank" class="contact-card">
+                    <i data-lucide="globe"></i>
+                    <div>
+                        <h3>Website</h3>
+                        <p>yhmyria.site</p>
+                    </div>
+                </a>
+
+                <a href="mailto:hmyriayehor@gmail.com" class="contact-card">
+                    <i data-lucide="mail"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>hmyriayehor@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="tel:+4793939862" class="contact-card">
+                    <i data-lucide="phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+47 93 93 98 62</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/yehor-hmyria-b6b391334/" target="_blank" class="contact-card">
+                    <i data-lucide="linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Yehor Hmyria. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
